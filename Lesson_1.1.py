@@ -6,7 +6,7 @@
 import requests
 
 username = 'Usalina'
-token = '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'
+token = ''
 r = requests.get('https://api.github.com/user/repos', auth=(username, token))
 r.json()
 f = open("requests.json", "w")
