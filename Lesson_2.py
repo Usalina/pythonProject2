@@ -14,7 +14,6 @@ import requests
 from bs4 import BeautifulSoup as bs
 from pprint import pprint
 import re
-import time
 import random
 
 url = 'http://127.0.0.1:5000/'
